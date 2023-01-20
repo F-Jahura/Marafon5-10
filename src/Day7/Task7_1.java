@@ -5,7 +5,7 @@ public class Task7_1 {
         Airplane airplane1 = new Airplane();
         Airplane airplane2 = new Airplane();
         airplane1.setLength(3500);
-        airplane2.setLength(2900);
+        airplane2.setLength(3500);
         Airplane.compareAirplanes(airplane1, airplane2);
     }
 }

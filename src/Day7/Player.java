@@ -1,10 +1,10 @@
 package Day7;
 
 public class Player {
-    public int stamina;
+    private int stamina;
     public final static int MAX_STAMINA = 100;
     public final static int MIN_STAMINA = 0;
-    public static int countPlayers = 0;
+    private static int countPlayers = 0;
 
     public Player(int stamina) {
 
@@ -26,6 +26,8 @@ public class Player {
         System.out.println();
         System.out.println("The player is running.");
         stamina = MAX_STAMINA;
+        stamina = stamina - 1;
+
         while (true) {
             stamina = stamina - 1;
             if (stamina == 0) {

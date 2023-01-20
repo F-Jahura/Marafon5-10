@@ -1,15 +1,15 @@
 package Day9;
 
 public class Teacher extends Human{
-    private String SubjectName;
+    private String subjectName;
 
     public Teacher(String name, String subjectName) {
         super(name);
-        SubjectName = subjectName;
+        subjectName = subjectName;
     }
 
     public String getSubjectName() {
-        return SubjectName;
+        return subjectName;
     }
 
     public void printInfo(){

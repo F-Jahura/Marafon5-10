@@ -59,7 +59,9 @@ public class Airplane {
     public static void compareAirplanes(Airplane airplane1, Airplane airplane2){
         if (airplane1.length > airplane2.length){
             System.out.println("Length of first airplane is bigger than second one");
-        } else
+        } else if ( airplane1.length < airplane2.length) {
             System.out.println("Length of second airplane is bigger than first one");
+        } else
+            System.out.println("The length of both airplanes is same.");
     }
 }
